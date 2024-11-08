@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #34495e;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #18bc9c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+
+section {
+    padding: 60px 20px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+
+#goals ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+#goals li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#goals li strong {
+    color: #18bc9c;
+}
+
+
+.step-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.step {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.step h3 {
+    color: #18bc9c;
+}
+
+
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-list li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.resource-list li a {
+    color: #18bc9c;
+    text-decoration: none;
+}
+
+.resource-list li a:hover {
+    text-decoration: underline;
+}
+
+
+.involvement-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.option {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.option h3 {
+    color: #2c3e50;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #18bc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #16a085;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}

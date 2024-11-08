@@ -1,0 +1,139 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#blog-posts {
+    width: 70%;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.post-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.post-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #34495e;
+}
+
+.sidebar {
+    width: 28%;
+}
+
+.widget {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 8px;
+}
+
+.widget ul li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.widget .tag-cloud a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 5px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}

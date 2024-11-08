@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHE Project - Interactive Tools</title>
+    <link rel="stylesheet" href="kame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>CHE Project - Interactive Tools</h1>
+        <nav>
+            <ul>
+                <li><a href="#calculator">Savings & Energy Calculator</a></li>
+                <li><a href="#map">Renewable Energy Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section id="calculator">
+            <h2>Estimate Potential Savings & Energy Production</h2>
+            <form id="calculator-form">
+                <label for="energy-source">Choose Energy Source:</label>
+                <select id="energy-source" required>
+                    <option value="solar">Solar</option>
+                    <option value="wind">Wind</option>
+                    <option value="hydro">Hydroelectric</option>
+                    <option value="geothermal">Geothermal</option>
+                    <option value="biomass">Biomass</option>
+                </select>
+
+                <label for="location">Enter Location (in sq. meters or kWh):</label>
+                <input type="number" id="location" placeholder="Enter size or energy demand" required>
+
+                <button type="submit">Calculate Savings</button>
+            </form>
+
+            <div id="calculator-result">
+                <h3>Estimated Savings & Energy Production:</h3>
+                <p id="savings">Potential savings: $0</p>
+                <p id="energy-production">Energy produced: 0 kWh</p>
+            </div>
+        </section>
+
+     
+        <section id="map">
+            <h2>Interactive Renewable Energy Map</h2>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CHE Project. All Rights Reserved.</p>
+    </footer>
+
+    <script src="kam"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+</body>
+</html>
